@@ -2,29 +2,56 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Register – CaraRD</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smarter Supplement Conversations – Registration</title>
   <style>
-    html, body {
+    body {
       margin: 0;
-      padding: 0;
-      height: 100%;
       font-family: Arial, sans-serif;
+      background-color: #0F7A7A;
     }
-    .form-container {
-      height: 100vh;
+
+    .header {
       width: 100%;
-      overflow: hidden;
+      text-align: center;
+      background-color: #0F7A7A;
     }
+
+    .header img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+
+    .form-container {
+      width: 100%;
+      height: calc(100vh - 400px);
+      background-color: #ffffff;
+    }
+
     iframe {
       width: 100%;
       height: 100%;
       border: none;
     }
+
+    @media screen and (max-width: 768px) {
+      .form-container {
+        height: auto;
+      }
+      iframe {
+        min-height: 800px;
+      }
+    }
   </style>
 </head>
 <body>
+  <div class="header">
+    <img src="webcast-header.png" alt="Smarter Supplement Conversations">
+  </div>
   <div class="form-container">
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdzJrOF09qNbealCWvdCAEsuAfH7AKF5lQXnq9vCeWfIvPKOg/viewform?embedded=true" allowfullscreen>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdzJrOF09qNbealCWvdCAEsuAfH7AKF5lQXnq9vCeWfIvPKOg/viewform?embedded=true">
       Loading…
     </iframe>
   </div>
