@@ -1,15 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Redirecting…</title>
-  <meta http-equiv="refresh" content="0; url=https://docs.google.com/forms/d/e/1FAIpQLSdzJrOF09qNbealCWvdCAEsuAfH7AKF5lQXnq9vCeWfIvPKOg/viewform?usp=header">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smarter Supplement Conversations – Episode 2 Registration</title>
   <style>
     body {
-      display: none;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #0F7A7A;
+    }
+
+    .form-header {
+      text-align: center;
+      background-color: #0F7A7A;
+    }
+
+    .form-header img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+
+    .form-container {
+      width: 100%;
+      height: 100vh;
+      background-color: #ffffff;
+    }
+
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+
+    @media screen and (max-width: 768px) {
+      iframe {
+        min-height: 900px;
+      }
     }
   </style>
 </head>
 <body>
+  <div class="form-header">
+    <img src="webcast-header.png" alt="Smarter Supplement Conversations" />
+  </div>
+  <div class="form-container">
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdzJrOF09qNbealCWvdCAEsuAfH7AKF5lQXnq9vCeWfIvPKOg/viewform?embedded=true">
+      Loading…
+    </iframe>
+  </div>
 </body>
 </html>
